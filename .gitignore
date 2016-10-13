@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+*.exe
+epic_text_adventure_android_invasion/epic_text_adventure_android_invasion/bin/Debug/epic_text_adventure_android_invasion.exe
+*.pdb
