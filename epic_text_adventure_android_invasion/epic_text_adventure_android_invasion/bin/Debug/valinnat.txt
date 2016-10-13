@@ -1,16 +1,11 @@
-sivu nolla
 @
-sivu yksi
 @
 2
 3
-
-sivu kaksi
 @
 1
 4
 6
-sivu kolme
 @
 1
 2

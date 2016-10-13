@@ -77,7 +77,7 @@ namespace Epic_text_adventure___android_invasion
                         }
                         else
                         {
-                            Console.WriteLine("error, couldnt make keyinfo into number");
+                            //Console.WriteLine("error, couldnt make keyinfo into number");
                         }
                     }
                      if(foundChoice == false)
@@ -141,22 +141,22 @@ namespace Epic_text_adventure___android_invasion
                         rivi++;
                     }
                 }
-                temp2 = new string[rivi];                           //alusta oikein kokoiseksi
+                choicesByPage = new string[rivi];                           //alusta oikein kokoiseksi
                 rivi = 0;                                                   //resetoi rivi
 
                 for (int i = 0; i < temp.Length; i++)                       //putsataan tyhjät rivit pois 
                 {
                     if (temp[i].Length > 0)                                  //jos rivi ei ole tyhjä
                     {
-                        temp2[rivi] += temp[i];                     //lisää tämä rivi
-                        temp2[rivi] += '\n';                        //lisää rivin vaihto
+                        choicesByPage[rivi] += temp[i];                     //lisää tämä rivi
+                        choicesByPage[rivi] += '\n';                        //lisää rivin vaihto
                         rivi++;
                     }
                 }
                 //poistetaan kommentit eli ei lukuja olevat rivit
                 rivi = 0;
            
-                for (int i = 0; i < temp2.Length; i++)
+              /*  for (int i = 0; i < temp2.Length; i++)
                 {
                     string[] temp3 = temp2[i].Split('\n');
                     for (int j = 0; j < temp3.Length; j++)
@@ -169,9 +169,7 @@ namespace Epic_text_adventure___android_invasion
                         }
                     }
                   
-                }
-
-
+                }*/
             }
             
 
