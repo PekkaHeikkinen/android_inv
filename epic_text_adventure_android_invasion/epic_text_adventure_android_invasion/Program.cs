@@ -147,6 +147,7 @@ namespace Epic_text_adventure___android_invasion
                 for (int i = 0; i < temp.Length; i++)                       //putsataan tyhjät rivit pois 
                 {
                     if (temp[i].Length > 0)                                  //jos rivi ei ole tyhjä
+
                     {
                         choicesByPage[rivi] += temp[i];                     //lisää tämä rivi
                         choicesByPage[rivi] += '\n';                        //lisää rivin vaihto
